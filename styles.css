@@ -2,7 +2,8 @@
     --primary-button-color: #6C63FE;
 }
  body {
-    margin: 100px 0;
+    margin:100px 0;
+    padding: 0;
  }
 
  .header {
@@ -35,4 +36,14 @@ h3 {
     padding: 15px 30px;
     text-decoration: none;
     border: 1px solid var(--primary-button-color);
+}
+
+.navigation-links {
+    display: flex; 
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.navigation-links a {
+     margin: 20px;
 }
