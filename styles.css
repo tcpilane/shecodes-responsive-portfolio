@@ -1,5 +1,6 @@
 :root {
     --primary-button-color: #6C63FE;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
  body {
     margin:100px 0;
@@ -23,8 +24,11 @@ h3 {
     color: white;
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px;
+    padding: 20px 15px;
     text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    box-shadow: var(--box-shadow);
 }
 
 .secondary-link {
@@ -33,9 +37,11 @@ h3 {
     border-radius: 4px;
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px;
+    padding: 20px 15px;
     text-decoration: none;
+    text-transform: capitalize;
     border: 1px solid var(--primary-button-color);
+    font-size: 15px;
 }
 
 .navigation-links {
@@ -47,3 +53,4 @@ h3 {
 .navigation-links a {
      margin: 20px;
 }
+
