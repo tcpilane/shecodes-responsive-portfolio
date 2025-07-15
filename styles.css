@@ -31,6 +31,12 @@ h3 {
     box-shadow: var(--box-shadow);
 }
 
+.logo  {
+    width: 150px;
+    height: auto;
+    margin: 0 70px;
+}
+
 .secondary-link {
     background: white;
     color: var(--primary-button-color);
@@ -44,13 +50,18 @@ h3 {
     font-size: 15px;
 }
 
-.navigation-links {
-    display: flex; 
-    margin-top: 40px;
-    justify-content: center;
+.navbar-nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-.navigation-links a {
-     margin: 20px;
+.navbar-nav li {
+    display: inline-block;
+    margin-right: 20px;
 }
+
+/* .navigation-links a {
+     margin: 20px;
+} */
 
