@@ -3,6 +3,7 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     --heading-font-family: 'Playfair Display', serif;
     --default-font-family: 'Poppins', sans-serif;
+    --secondary-color: #f9f7fe;
 }
  body {
     margin: 0;
@@ -11,7 +12,9 @@
  }
 
  .header {
-    text-align: center; ;
+    text-align: center; 
+    background: var(--secondary-color);
+    padding: 30px 0;
  }
  h1,h2 {
     font-size: 50px;
@@ -20,6 +23,11 @@
 h3 {
     font-size: 20px;
 }
+
+h4 {
+    font-size: 26px;
+}
+
 
 .primary-link {
     background: var(--primary-button-color);
@@ -83,7 +91,40 @@ nav a:hover, nav li.active a {
     margin-right: 20px;
 }
 
-/* .navigation-links a {
-     margin: 20px;
-} */
+footer {
+    margin: 60px 0;
+}
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
 
+footer .contact-box p {
+    margin: 0;
+}
+
+.btn-branding {
+    background: var(--primary-button-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--primary-button-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
