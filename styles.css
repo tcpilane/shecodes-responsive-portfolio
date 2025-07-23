@@ -14,14 +14,22 @@
  .header {
     text-align: center; 
     background: var(--secondary-color);
-    padding: 30px 0;
+    padding: 80px 20px;
+
+   
  }
  h1,h2 {
-    font-size: 50px;
+    font-size: 38px;
+    line-height: 40px;
+ }
+ h1 {
+    font-family: var(--heading-font-family);
  }
 
 h3 {
+    font-family: var(--heading-font-family);
     font-size: 20px;
+    color: black;
 }
 
 h4 {
@@ -35,15 +43,16 @@ h4 {
     color: white;
     font-size: 18px;
     line-height: 27px;
-    padding: 20px 15px;
+    padding: 20px 0;
     text-decoration: none;
-    text-transform: capitalize;
-    font-size: 15px;
-    box-shadow: var(--box-shadow);
+}
+.primary-link:hover {
+    color:black;
 }
 
+
 nav {
-    padding: 20px 0;
+    padding:20px 0;
 }
 nav ul {
     padding:0;
@@ -67,7 +76,24 @@ nav a:hover, nav li.active a {
     color: var(--primary-button-color);
 }
 
-.secondary-link {
+.container h2 {
+    font-family: var(--heading-font-family);
+}
+.btn-branding-outline {
+    color: var(--primary-button-color);
+    background: white;
+    border: 1px solid var(--primary-button-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 15px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+/* .secondary-link {
     background: white;
     color: var(--primary-button-color);
     border-radius: 4px;
@@ -78,7 +104,7 @@ nav a:hover, nav li.active a {
     text-transform: capitalize;
     border: 1px solid var(--primary-button-color);
     font-size: 15px;
-}
+} */
 
 .navbar-nav{
     list-style-type: none;
